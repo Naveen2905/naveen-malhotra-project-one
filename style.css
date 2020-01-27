@@ -1,0 +1,862 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, footer, header, nav, section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption, figure, main {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b, strong {
+    font-weight: inherit
+}
+
+b, strong {
+    font-weight: bolder
+}
+
+code, kbd, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio, video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button, input {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox], [type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details, menu {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+canvas {
+    display: inline-block
+}
+
+template {
+    display: none
+}
+
+[hidden] {
+    display: none
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: '';
+    clear: both;
+    height: 0;
+}
+
+html {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+html {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Setting default font value  */
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    background-color: #8DD7E9;
+    border: none;
+    color: #0F0F0F;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* stripping default values */
+
+h1, h2, h4, p, li, ul {
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+button {
+    transition: all 0.3s ease-in;
+}
+
+button:hover {
+    background: #58cde8;
+}
+
+/* Wrapper  */
+
+.wrapper {
+    max-width: 1140px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+
+header {
+    background: url(./summit-assets/summit-assets/asset-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 20px;
+}
+
+.logoHeading {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    color: #F6F6F6;
+    line-height: 2.6rem;
+    font-weight: bold;
+    width: calc(100%/2);
+    float: left;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.menu ul li a {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #F6F6F6;
+    font-weight: bold;
+    line-height: 2.9rem;
+    padding: 8px;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    transition: all 0.3s ease-in;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid #143844;
+}
+
+.mainHeading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mainHeading div, h1 {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #F6F6F6;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mainHeading div {
+    font-size: calc(3.8rem + 1vw);
+    line-height: 2.6rem;
+    margin: 10px auto;
+}
+
+.mainHeading h1 {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    margin: 5px auto;
+    letter-spacing: 2px;
+}
+
+.socialLinks {
+    float: right;
+    padding: 0 2% 2% 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.socialLinks li {
+    margin: 8px;
+}
+
+.socialLinks li a {
+    font-size: 1.6rem;
+    color: #215A6D;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.socialLinks li a:hover {
+    border-left: 2px solid #215A6D;
+}
+
+/* Main styling starts */
+
+.about {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #0F0F0F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 50px 0 20px 0;
+}
+
+.aboutContent {
+    font-family: 'Poppins', sans-serif;
+    color: #0F0F0F;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    line-height: 20px;
+}
+
+.infoButton {
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.gallery {
+    background-color: #F6F6F6;
+}
+
+.galleryImage, .galleryInfo {
+    float: left;
+    width: 50%;
+}
+
+.galleryImage img {
+    min-height: 245px;
+}
+
+.galleryHeading {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #0F0F0F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 4%;
+}
+
+.galleryDescription {
+    font-family: 'Poppins', sans-serif;
+    color: #0F0F0F;
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 20px;
+}
+
+.readButton {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.packingInfoImage {
+    float: right;
+    width: 50%;
+}
+
+.packingInfo {
+    float: left;
+    width: 50%;
+}
+
+/* Page Links Sections */
+
+.pageLinks {
+    background: #215A6D;
+    padding: 35px 0;
+}
+
+.pageLinks ul li a {
+    color: #F6F6F6;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in;
+}
+
+.pageLinks ul li a:hover {
+    color: #8DD7E9;
+    border-bottom: 2px solid #8DD7E9;
+}
+
+.far, .fas {
+    padding: 10px;
+    display: block;
+}
+
+.pageLinksContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.pageLinksContainer li {
+    display: inline-block;
+    margin: 0 5%;
+}
+
+/* About Me Section  */
+
+.aboutMe {
+    padding: 75px 0;
+    background: #F6F6F6;
+}
+
+.aboutHeading {
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #0F0F0F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0;
+    float: left;
+}
+
+.imgContainer, .contentContainer {
+    float: left;
+}
+
+.imgContainer {
+    width: calc(40% - 80px);
+    margin-right: 40px;
+}
+
+.contentContainer {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.aboutMeDescription {
+    clear: both;
+    font-family: 'Poppins', sans-serif;
+    color: #0F0F0F;
+    font-size: 1.4rem;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.aboutMeButton {
+    margin: 5px 0;
+}
+
+/* Images Gallery  */
+
+.imageGallery div {
+    width: calc(100% - 12%);
+}
+
+.imageGallery ul {
+    padding: 5% 0;
+}
+
+.imageGallery li {
+    float: left;
+    width: calc((100%/3) - 4%);
+    margin: 2%;
+}
+
+/* Footer Section Styling  */
+
+.footerSection {
+    background: #215A6D;
+    padding: 5% 0;
+}
+
+.newsletters {
+    width: 45%;
+    float: left;
+}
+
+.footerHeading {
+    color: #F6F6F6;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 2% 0;
+}
+
+.newsletterForm label {
+    color: #F6F6F6;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.newsletterForm fieldset {
+    padding: 0;
+    font-size: 1.2rem;
+    margin: 2% 0;
+    border: none;
+    width: 100%;
+}
+
+.newsletterForm fieldset input {
+    font-size: inherit;
+    padding: 1rem 2rem;
+    width: 60%;
+    transition: all 0.3s ease-in-out;
+}
+
+.newsletterForm fieldset input:focus {
+    outline: 2px solid #F6F6F6;
+}
+
+.footerLinks {
+    float: left;
+    width: 55%;
+}
+
+.contact {
+    width: calc(100%/3);
+    float: left;
+}
+
+.footerInfo, .footerInfo a {
+    color: #F6F6F6;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 2px 0;
+    transition: all 0.3s ease-in;
+}
+
+.footerInfo a:hover {
+    border-bottom: 1.5px solid #8DD7E9;
+}
+
+.pages {
+    float: left;
+    width: calc(100%/3);
+}
+
+.pageInfo, .pageInfo a {
+    color: #F6F6F6;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 2px 0;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+}
+
+.pageInfo a:hover {
+    border-bottom: 1.5px solid #8DD7E9;
+}
+
+.posts {
+    float: left;
+    width: calc(100%/3);
+}
+
+/* copyright section  */
+
+.copyright {
+    color: #F6F6F6;
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0.5rem 0;
+    background: #143844;
+}
+
+.copyright p {
+    text-align: center;
+}
+
+/* Media Queries (responsive)  */
+
+/* For Tablets */
+
+@media (max-width: 768px) {
+    .logoHeading {
+        width: 100%;
+        text-align: center;
+    }
+    .menu ul {
+        width: 100%;
+        text-align: center;
+    }
+    .menu ul li {
+        float: none;
+    }
+    .aboutHeading {
+        margin: 0;
+    }
+    .newsletterForm fieldset input, .newsletterForm fieldset button {
+        width: 90%;
+    }
+    .galleryInfo {
+        clear: both;
+        width: 100%;
+    }
+    .galleryImage {
+        float: none;
+        width: 100%;
+    }
+    .galleryDescription {
+        width: 100%;
+    }
+    .packingInfoImage {
+        float: left;
+        width: 100%;
+    }
+    .packingInfo {
+        clear: left;
+        width: 100%;
+    }
+    .imgContainer {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .contentContainer {
+        width: 100%;
+        text-align: center;
+    }
+    .aboutHeading {
+        text-align: center;
+        width: 100%;
+        margin: 5% auto;
+    }
+    .aboutMeButton {
+        text-align: center;
+    }
+    .footerHeading {
+        text-align: center;
+    }
+    .newsletterForm label {
+        text-align: center;
+        display: block;
+    }
+    .newsletterForm fieldset {
+        text-align: center;
+    }
+    .newsletters {
+        width: 100%;
+    }
+    .footerLinks {
+        width: 100%;
+    }
+    .footerLinks ul {
+        width: 100%;
+        text-align: center;
+        margin: 2% 0;
+    }
+}
+
+/* For Mobile Phones */
+
+@media (max-width: 480px) {
+    .logoHeading {
+        width: calc(100%/2);
+    }
+    .logoheading h2 {
+        text-align: left;
+    }
+    .menu ul {
+        display: none;
+    }
+    .socialLinks {
+        display: none;
+    }
+    .galleryInfo {
+        clear: both;
+        width: 100%;
+    }
+    .galleryImage {
+        float: none;
+        width: 100%;
+    }
+    .galleryDescription {
+        width: 100%;
+    }
+    .packingInfoImage {
+        float: left;
+        width: 100%;
+    }
+    .packingInfo {
+        clear: left;
+        width: 100%;
+    }
+    .menu ul {
+        display: none;
+    }
+    .mobileMenu {
+        display: block;
+        float: right;
+    }
+    .mobileMenu a {
+        font-size: 1.8rem;
+        color: #F6F6F6;
+        line-height: 2.6rem;
+        padding: 0 auto;
+    }
+    .pageLinksContainer li {
+        display: block;
+        margin: 2% 5%;
+        text-align: center;
+    }
+    .imgContainer {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .contentContainer {
+        width: 100%;
+        text-align: center;
+    }
+    .aboutHeading {
+        text-align: center;
+        width: 100%;
+        margin: 5% auto;
+    }
+    .aboutMeButton {
+        text-align: center;
+    }
+    .imageGallery ul {
+        padding: 0;
+    }
+    .imageGallery ul li {
+        margin: 0;
+        width: calc(100%/2);
+    }
+    .imageNone{
+        display: none;
+    }
+    .footerHeading {
+        text-align: center;
+    }
+    .newsletterForm label {
+        text-align: center;
+        display: block;
+    }
+    .newsletterForm fieldset {
+        text-align: center;
+    }
+    .newsletters {
+        width: 100%;
+    }
+    .footerLinks {
+        width: 100%;
+    }
+    .footerLinks ul {
+        width: 100%;
+        text-align: center;
+        margin: 2% 0;
+    }
+}
